@@ -1,4 +1,10 @@
 
+/*Common styles*/
+
+body {
+    width: 1600px;
+    height: 2924px;
+}
 
 
 ul {
@@ -6,16 +12,16 @@ ul {
 }
 
 
-.web-studio {
+.web-studio-logo {
     text-decoration: none;
     font-weight: bold;
 }
 
-.web {
+.web-logo-part {
     color: #2196F3;
 }
 
-.studio {
+.studio-logo-part {
     color: #000000;
 }
 
@@ -27,9 +33,19 @@ ul {
     color: #212121;
 }
 
-.web-studio-item-selected {
+
+.web-studio-item:hover {
     color: #2196F3;
 }
+
+.web-studio-item:focus {
+    color: #2196F3;
+}
+
+
+/*.web-studio-item-selected {
+    color: #2196F3;
+}*/
 
 .contacts-menu .contacts-menu-item {
     text-decoration: none;
@@ -39,15 +55,41 @@ ul {
     color: #212121;
 }
 
-.contacts-menu-item-selected {
+.contacts-menu-item:hover {
+    color: #2196F3; 
+}
+
+.contacts-menu-item:focus {
     color: #2196F3;
 }
 
 
-.button {
+/*.contacts-menu-item-selected {
+    color: #2196F3;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+/*Portfolio css*/
+
+.projects-types-button {
     text-decoration: none;
 }
-    
-.button-selected {
-    text-decoration: none;
+
+.projects-types-button.projects-types-button-active {
+    background-color: #2196F3;
+    color: white;
+}
+
+.projects-types-button:hover {
+    background-color: #2196F3;
+    color: white;  
 }
