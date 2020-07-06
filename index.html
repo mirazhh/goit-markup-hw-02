@@ -9,53 +9,61 @@
   </head>
   <body>
     <header>
+
       <!--WebStudio main information-->
-      <a href=""><span>Web</span> <span>Studio</span></a>
-      <ul>
-        <li>
-          <a href="">Студия</a>
-        </li>
-        <li>
-          <a href="">Портфолио</a>
-        </li>
-        <li>
-          <a href="">Контакты</a>
-        </li>
+
+      <a class="web-studio" href="/index.html"><span class="web">Web</span> <span class="studio">Studio</span></a>
+      <ul class="web-studio-menu">
+          <li>
+            <a class="web-studio-item  web-studio-item-selected"  href="/index.html">Студия</a>
+          </li>
+          <li>
+            <a class="web-studio-item" href="/portfolio.html">Портфолио</a>
+          </li>
+          <li>
+            <a class="web-studio-item" href="">Контакты</a>
+          </li>
       </ul>
-      <!--Email and telephone number-->
-      <address>
-        <ul>
-          <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-          </li>
-          <li>
-            <a href="tel:+380991111111">+38 099 111 11 11</a>
-          </li>
-        </ul>
-      </address>
+      
+        <!--Email and telephone number-->
+
+        <address>
+          <ul class="contacts-menu">
+            <li>
+              <a class="contacts-menu-item contacts-menu-item-selected"  href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li>
+              <a class="contacts-menu-item"   href="tel:+380991111111">+38 099 111 11 11</a>
+            </li>
+          </ul>
+        </address>
     </header>
+    
     <main>
-      <!--Hero-->
-      <section>
-        <h1>
+
+      <!--Hero section-->
+
+      <section class="hero-section">
+        <h1 class="hero-section-title">
           Эффективные решения
           <br />
           для вашего бизнеса
         </h1>
-        <button>Заказать услугу</button>
+        <button class="hero-section-button">Заказать услугу</button>
       </section>
 
       <!--Our strengths section-->
-      <section>
-        <h2 hidden>Наши сильные стороны</h2>
+
+      <section class="our-strengths-section">
+        <h2 class="our-strengths-section-title" hidden>Наши сильные стороны</h2>
         <ul>
           <li>
             <img
               src="./images/Our_strengths_pics/antenna-1.svg"
               alt="Изображение антенны"
             />
-            <h3>Внимание к деталям</h3>
-            <p>
+            <h3 class="our-strengths-section-item">Внимание к деталям</h3>
+            <p class="our-strengths-section-item-info">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
@@ -65,8 +73,8 @@
               src="./images/Our_strengths_pics/clock-2.svg"
               alt="Изображение часов"
             />
-            <h3>Пунктуальность</h3>
-            <p>
+            <h3 class="our-strengths-section-item">Пунктуальность</h3>
+            <p class="our-strengths-section-item-info">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
@@ -76,8 +84,8 @@
               src="./images/Our_strengths_pics/diagram-3.svg"
               alt="Изображение диаграммы"
             />
-            <h3>Планирование</h3>
-            <p>
+            <h3 class="our-strengths-section-item">Планирование</h3>
+            <p class="our-strengths-section-item-info">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
@@ -87,8 +95,8 @@
               src="./images/Our_strengths_pics/astronaut-4.svg"
               alt="Изображение астрнавта"
             />
-            <h3>Современные технологии</h3>
-            <p>
+            <h3 class="our-strengths-section-item">Современные технологии</h3>
+            <p class="our-strengths-section-item-info">
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
             </p>
@@ -97,9 +105,10 @@
       </section>
 
       <!--What we do section-->
-      <section>
-        <h2>Чем мы занимаемся</h2>
-        <ul>
+
+      <section class="what-we-do-section">
+        <h2 class="what-we-do-section-title">Чем мы занимаемся</h2>
+        <ul class="what-we-do-section-list">
           <li>
             <img
               src="./images/What_we_do_pics/Action-1.jpg"
@@ -107,7 +116,7 @@
               width="370"
               height="294"
             />
-            <h3>Десктопные приложения</h3>
+            <h3 class="what-we-do-section-item">Десктопные приложения</h3>
           </li>
           <li>
             <img
@@ -116,7 +125,7 @@
               width="370"
               height="294"
             />
-            <h3>>Мобильные приложения</h3>
+            <h3 class="what-we-do-section-item">Мобильные приложения</h3>
           </li>
           <li>
             <img
@@ -125,14 +134,15 @@
               width="370"
               height="294"
             />
-            <h3>Дизайнерские решения</h3>
+            <h3 class="what-we-do-section-item">Дизайнерские решения</h3>
           </li>
         </ul>
       </section>
 
       <!--Our team section-->
-      <section>
-        <h2>Наша команда</h2>
+
+      <section class="our-team-section">
+        <h2 class="our-team-section-title">Наша команда</h2>
         <ul>
           <li>
             <img
@@ -141,7 +151,7 @@
               width="270"
               height="260"
             />
-            <h3>Николай Кучеренко</h3>
+            <h3 class="our-team-section-member">Николай Кучеренко</h3>
             <p lang="en">Product Designer</p>
             <ul>
               <li>
@@ -186,7 +196,7 @@
               width="270"
               height="260"
             />
-            <h3>Ольга Иванова</h3>
+            <h3 class="our-team-section-member">Ольга Иванова</h3>
             <p lang="en">Frontend Developer</p>
             <ul>
               <li>
@@ -231,7 +241,7 @@
               width="270"
               height="260"
             />
-            <h3>Андрей Шевченко</h3>
+            <h3 class="our-team-section-member">Андрей Шевченко</h3>
             <p lang="en">Marketing</p>
             <ul>
               <li>
@@ -276,7 +286,7 @@
               width="270"
               height="260"
             />
-            <h3>Иван Николаев</h3>
+            <h3 class="our-team-section-member">Иван Николаев</h3>
             <p lang="en">UI Designer</p>
             <ul>
               <li>
@@ -317,11 +327,12 @@
       </section>
 
       <!--Constant clients section-->
-      <section>
-        <h2>Постоянные клиенты</h2>
-        <ul>
+
+      <section class="constant-clients-section">
+        <h2 class="constant-clients-section-title">Постоянные клиенты</h2>
+        <ul class="constant-clients-section-list">
           <li>
-            <a href="">
+            <a class="constant-clients-section-logo" href="">
               <img
                 src="./images/Contant_clients_logos/constant_clients_logo-1.svg"
                 alt="Логотип компании 1"
@@ -329,7 +340,7 @@
             </a>
           </li>
           <li>
-            <a href="">
+            <a class="constant-clients-section-logo" href="">
               <img
                 src="./images/Contant_clients_logos/constant_clients_logo-2.svg"
                 alt="Логотип компании 2"
@@ -337,7 +348,7 @@
             </a>
           </li>
           <li>
-            <a href="">
+            <a class="constant-clients-section-logo" href="">
               <img
                 src="./images/Contant_clients_logos/constant_clients_logo-3.svg"
                 alt="Логотип компании 3"
@@ -345,7 +356,7 @@
             </a>
           </li>
           <li>
-            <a href="">
+            <a class="constant-clients-section-logo" href="">
               <img
                 src="./images/Contant_clients_logos/constant_clients_logo-4.svg"
                 alt="Логотип компании 4"
@@ -353,7 +364,7 @@
             </a>
           </li>
           <li>
-            <a href="">
+            <a class="constant-clients-section-logo" href="">
               <img
                 src="./images/Contant_clients_logos/constant_clients_logo-5.svg"
                 alt="Логотип компании 5"
@@ -361,7 +372,7 @@
             </a>
           </li>
           <li>
-            <a href="">
+            <a class="constant-clients-section-logo" href="">
               <img
                 src="./images/Contant_clients_logos/constant_clients_logo-6.svg"
                 alt="Логотип компании 6"
@@ -373,21 +384,23 @@
     </main>
 
     <footer>
+
       <!--Contacts section-->
+
       <div>
-        <a href=""><span>Web</span> <span>Studio</span></a>
+         <a class="web-studio" href=""><span class="web">Web</span> <span class="studio">Studio</span></a>
         <address>
           <ul>
             <li>
-              <a href="https://goo.gl/maps/wAixXiMxQ6tdeZB17" target="_blank"
+              <a class="contacts-section-link" href="https://goo.gl/maps/wAixXiMxQ6tdeZB17" target="_blank"
                 >г. Киев, пр-т Леси Украинки, 26</a
               >
             </li>
             <li>
-              <a href="mailto:info@example.com">info@example.com</a>
+              <a class="contacts-section-link" href="mailto:info@example.com">info@example.com</a>
             </li>
             <li>
-              <a href="tel:+380991111111">+38 099 111 11 11</a>
+              <a class="contacts-section-link" href="tel:+380991111111">+38 099 111 11 11</a>
             </li>
           </ul>
         </address>

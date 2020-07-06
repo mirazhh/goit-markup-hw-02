@@ -1,9 +1,53 @@
 
 
-.button {
 
+ul {
+    list-style: none;
 }
 
-.button-selected {
+
+.web-studio {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.web {
+    color: #2196F3;
+}
+
+.studio {
+    color: #000000;
+}
+
+.web-studio-menu .web-studio-item {
+    text-decoration: none;
+}
+
+.web-studio-item {
+    color: #212121;
+}
+
+.web-studio-item-selected {
+    color: #2196F3;
+}
+
+.contacts-menu .contacts-menu-item {
+    text-decoration: none;
+}
+
+.contacts-menu-item {
+    color: #212121;
+}
+
+.contacts-menu-item-selected {
+    color: #2196F3;
+}
+
+
+.button {
+    text-decoration: none;
+}
     
+.button-selected {
+    text-decoration: none;
 }
