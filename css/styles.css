@@ -79,6 +79,15 @@ body {
     color: var(--accent-blue-color); /*#2196F3*/
 }
 
+.web-studio-item-link-active {
+    color: var(--accent-blue-color); /*#2196F3*/
+}
+
+/*.contacts-menu-item-link-active {
+    color: var(--accent-blue-color)
+}*/
+
+
 /*Index.html Studio css*/
 
 .hero-section-title {
@@ -167,6 +176,14 @@ body {
 
 /*Portfolio css*/
 
+.web-studio-item-link-active {
+    color: var(--accent-blue-color); /*#2196F3*/
+}
+
+/*.our-projects-item-link:hover {
+    background-color: var(--accent-blue-color);
+}*/
+
 .project-types-button {
     font-weight: 500;
     font-size: 16px;
@@ -207,8 +224,16 @@ body {
     font-size: 14px;
     line-height: 1,71 px;
     letter-spacing: 0.03em;
+}
+
+.footer-contacts-item-address {
     color: var(--dark-theme-text-color) /*#FFFFFF*/;
 }
+
+.footer-contacts-item-requisites {
+    color: rgba(255, 255, 255, 0.6);
+}
+
 
 .join-us-text {
     font-weight: 700; /*bold*/
